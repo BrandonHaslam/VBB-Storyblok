@@ -1,0 +1,14 @@
+@tailwind base;
+@layer base {
+  * {
+    @apply antialiased box-border;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    @apply h-screen;
+  }
+}
+@tailwind components;
+@tailwind utilities;
